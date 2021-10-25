@@ -1,0 +1,75 @@
+html,body {
+    height: 100%;
+}
+body {
+    background: #F9F9F9;
+    margin: 0;
+}
+.content {
+    height: 100%;
+    width: 50%;
+    background: white;
+    margin: 0 auto;
+    padding-top: 64px;
+    padding-left: 64px;
+    padding-right: 64px;
+    box-shadow: 6px 4px 16px 4px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 84px;
+    margin: 0 0 76px 0;
+}
+.taskInput {
+    width: 100%;
+    height: 64px;
+    border-radius: 8px;
+    border: 1px solid #000000;
+    font-size: 32px;
+    margin: 0 48px 0 0;
+    box-sizing: border-box;
+}
+.addButton {
+    width: 176px;
+    height: 64px;
+    background-color: #30D3AC;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+
+    color: #000000;
+    transition: all 0.5s ease;
+}
+.addButton:hover {
+    background-color: yellowgreen;
+    cursor: pointer;
+}
+.controls {
+    display: flex;
+    margin: 0 0 64px 0;
+    
+}
+.task {
+    width: 100%;
+    height: 64px;
+    box-shadow: 0px 0px 4px 2px rgb(0 0 0 / 14%);
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    padding: 12px 32px 12px 32px;
+    box-sizing: border-box;
+}
